@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passions Event Bartending</title>
+    <link rel="icon" href="img/Passions-Logo.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="main-nav">
+                <a href="#" class="logo">Passions Event Bartending</a>
+                <ul class="navbar">
+                    <li class="menu-item">
+                        <a href="#about" class="menu-link">About</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#pricing" class="menu-link">Pricing</a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#contact" class="menu-link">Contact Us</a>
+                    </li>
+                    <!-- <li class="menu-item">
+                        <a href="#reviews" class="menu-link">Reviews</a>
+                    </li> -->
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="content" id="home">
+            <img src="img/Passions_Logo_With_Words.png" width="500rem">
+            <p>Serving Schuylkill and neighboring counties!</p>
+            <p>RAMP certified bartenders to provide service for weddings, birthdays,
+                banquets, and other special events.</p>
+            <!-- Slideshow container -->
+            <div class="slideshow-container">
+
+                <!-- Full-width images with number and caption text -->
+                <div class="mySlides fade">
+                    <img src="img/Gallery Photos/Slideshow-1.jpg" width="500rem">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/Gallery Photos/Slideshow-2.jpg" width="500rem">
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="img/Gallery Photos/Slideshow-3.jpg" width="500rem">
+                </div>
+
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </section>
+
+        <section class="content" id="about">
+            <h2>About Passions</h2>
+            <p>Passions was started by a small-town bartender who imagined greater things. The company's
+                name is what our business stands for. We are passionate about what we do. As a bartender,
+                it is our job to ensure your event is special and to make sure your guests are having the
+                time of their lives!</p>
+            <h2>Why Choose Passions?</h2>
+            <p>We will not only make and/or serve drinks for your guests. We will also provide you with
+                advice on how much alcohol you may need, glasses and stemware you may need, as well as help
+                set up your bar area to have everything placed conveniently and aesthetically for your guests.
+                All bartenders are RAMP certified, come prepared, and are in attire to suit your theme/color
+                scheme if you desire.</p>
+        </section>
+
+        <section class="content" id="pricing">
+            <h2>Pricing</h2>
+            <p>$35/hr: 1 bartender, 2 feature drinks of your choice, up to 100 guests</p>
+            <p>$40/hr: 2 bartenders, 4 feature drinks of your choice, 100-300 guests</p>
+            <p>$45/hr: 2 bartenders, full bar or 4 feature drinks of your choice, 300+ guests</p>
+            <p>* We do charge mileage outside of a 30-mile radius of bartender's home base</p>
+        </section>
+
+        <section class="content" id="contact">
+            <h2>Contact Us</h2>
+            <div class="contact__container bd-contact">
+                <form action="https://formcarry.com/s/___" method="POST" class="contact__form">
+                    <div class="contact__inputs">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Name" class="contact__input" name="fullName" required />
+                        <label for="email">Your Email Address</label>
+                        <input type="email" id="email" placeholder="Email" class="contact__input" name="email" required />
+                    </div>
+
+                    <label for="message">Your Message</label>
+                    <textarea name="message" id="message" placeholder="Message" cols="30" rows="10" class="contact__input"></textarea>
+                    <button type="submit" class="button contact__button">Send</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- <section class="content" id="reviews">
+            <h2>Reviews</h2>
+        </section> -->
+        <script src="script/script.js"></script>
+
+    </main>
+    <footer class="footer section">
+
+    </footer>
+</body>
+
+</html>
